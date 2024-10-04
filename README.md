@@ -1,9 +1,9 @@
 # Wobbler Hub
 This is the official hub for [Wobbler](https://store.steampowered.com/app/2960830/Wobbler/), where we will organize reports, feedback, and wikis/info.
 
-*WIP*
+***(WIP)***
 
-Wikis will be primarily maintained here, but will also be copied to the https://blueguyentertainment.com/wobbler/wiki pages (soon™).
+[Wikis will be primarily maintained here](https://github.com/Blue-Guy-Entertainment/wobbler-hub/wiki), but will also be copied to the https://blueguyentertainment.com/wobbler/wiki pages (soon™).
 
 Don't like GitHub? That's understandable. This isn't the only place you can contribute. If you prefer, feel free to choose another of these communities to discuss Wobbler:
 - [Discord](https://discord.gg/CatkCx7cvH)
