@@ -14,9 +14,9 @@ body:
     attributes:
       label: What happened?
       description: |
-        Please let us know what steps led up to the crash or if you have any idea what it was caused by.
+        Please let us know what steps led up to the crash or if you have any idea what it was caused by. Include detailed steps if applicable.
 
-        Drag any relevant screenshots into this textbox.
+        Drag any relevant screenshots or short clips into this textbox.
       placeholder: My game crashes every time I go through a checkpoint.
     validations:
       required: true

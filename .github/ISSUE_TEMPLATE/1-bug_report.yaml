@@ -13,10 +13,10 @@ body:
     attributes:
       label: What happened?
       description: |
-        Please explain what happened, and also what you expected to happen.
-        If you can have any idea what it was caused by and how to reproduce it, that would be helpful as well - please include detailed steps if applicable.
+        Please explain what happened, and what you expected to happen.
+        If you can have any idea what it was caused by and how to reproduce it, that would be helpful as well - include detailed steps if applicable.
 
-        Drag any relevant screenshots into this textbox.
+        Drag any relevant screenshots or short clips into this textbox.
       placeholder: I'm never gaining any speed when going through the speedboost in
         Easy 09, I would expect it to give me the speed it says it gives. (small
         gif)
@@ -42,11 +42,9 @@ body:
     id: hardwareinfo
     attributes:
       label: CPU & GPU info
-      description: >
+      description: |
         e.g. Intel i5-8400 & Nvidia GTX 1070.
-
         If on Mac or unsure, try to provide your computer's model name/model number.
-
         Feel free to include any extra hardware info you feel is relevant.
     validations:
       required: true
