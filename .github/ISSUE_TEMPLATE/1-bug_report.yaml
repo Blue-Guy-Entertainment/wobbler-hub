@@ -1,19 +1,22 @@
-name: Crash report
-description: Report a game crash.
-title: "[Crash]: "
-labels: ["crash", "bug"]
+name: Bug report
+description: Report a problem or any unexpected behaviors.
+title: "[Bug]: "
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this crash report!
+        Thanks for taking the time to fill out this bug report!
 
   - type: textarea
     id: what-happened
     attributes:
       label: What happened?
-      description: Please let us know what steps led up to the crash or if you have any idea what it was caused by. Drag any relevant screenshots into this textbox.
-      placeholder: My game crashes every time I go through a checkpoint.
+      description: |
+        Please explain what happened, and also what you expected to happen.
+        If you can have any idea what it was caused by and how to reproduce it, that would be helpful as well - please include detailed steps if applicable.
+        Drag any relevant screenshots into this textbox.
+      placeholder: I'm never gaining any speed when going through the speedboost in Easy 09, I would expect it to give me the speed it says it gives. (small gif)
     validations:
       required: true
 
@@ -21,7 +24,7 @@ body:
     id: gameversion
     attributes:
       label: Game Version
-      description: What version of Wobbler are you running? Feel free to write "Latest" if unsure and on latest.
+      description: What version of Wobbler are you running? Feel free to write "Latest" if unsure and on latest at the time of posting the issue.
       placeholder: v0.2.1
     validations:
       required: true
@@ -38,7 +41,7 @@ body:
   - type: input
     id: hardwareinfo
     attributes:
-      label: CPU & GPU
+      label: CPU & GPU info
       description: |
         e.g. Intel i5-8400 & Nvidia GTX 1070.
         If on Mac or unsure, try to provide your computer's model name/model number.
@@ -51,7 +54,7 @@ body:
     attributes:
       label: Relevant log output
       description: |
-        Please copy and paste any relevant log output.
+        Please copy and paste any relevant log output. This probably isn't necessary for most bug reports, unless it's a really severe/weird bug.
         Feel free to also simply upload the log into this textbox if you're not sure.
         Here's where log files can be found:
         Windows: %localappdata%Low\Blue Guy Entertainment Inc\Wobbler\Player.log
@@ -62,4 +65,4 @@ body:
         Insert your log output here..
         ```
       validations:
-        required: true
+        required: false
