@@ -16,20 +16,20 @@ body:
       label: What happened?
       description: |
         Please explain what happened, and what you expected to happen.
-        If you can have any idea what it was caused by and how to reproduce it, that would be helpful as well - include detailed steps if applicable.
+        If you have any idea what it was caused by and how to reproduce it, that would be helpful as well - include detailed steps if applicable.
 
         Drag any relevant screenshots or short clips into this textbox.
-      placeholder: I'm never gaining any speed when going through the speedboost in
-        Easy 09, I would expect it to give me the speed it says it gives. (small
-        gif)
+      placeholder: |
+        I'm never gaining any speed when going through the speedboost in Easy 09, I would expect it to give me the speed it says it gives. Other speedboosts work, it's only on Easy 09.
+        
+        (short gif)
     validations:
       required: true
   - type: input
     id: gameversion
     attributes:
       label: Game Version
-      description: What version of Wobbler are you running? Feel free to write
-        "Latest" if unsure and on latest at the time of posting the issue.
+      description: What version of Wobbler are you running? Feel free to write "Latest" if unsure and on latest at the time of posting the issue.
       placeholder: v0.2.1
     validations:
       required: true
@@ -37,7 +37,9 @@ body:
     id: osversion
     attributes:
       label: Operating System & Version
-      description: e.g. Windows 10 v10.0.19045 | MacOS Ventura 13.6.9 | Linux - Ubuntu 24.04.1
+      description: |
+        e.g: Windows 10 v10.0.19045 | MacOS Ventura 13.6.9 | Linux - Ubuntu 24.04.1 (exact version number optional, but preferred)
+      placeholder: Windows 11
     validations:
       required: true
   - type: input
@@ -45,9 +47,9 @@ body:
     attributes:
       label: CPU & GPU info
       description: |
-        e.g. Intel i5-8400 & Nvidia GTX 1070.
         If on Mac or unsure, try to provide your computer's model name/model number.
         Feel free to include any extra hardware info you feel is relevant.
+      placeholder: Intel i5-8400 & Nvidia GTX 1070
     validations:
       required: true
   - type: textarea
@@ -62,6 +64,10 @@ body:
         Windows: %localappdata%Low\Blue Guy Entertainment Inc\Wobbler\Player.log
         Linux: ~/.config/unity3d/BlueGuyEntertainmentInc/Wobbler/Player.log
         macOS: ~/Library/Logs/Blue Guy Entertainment Inc/Wobbler/Player.log
+      placeholder: |
+        ```shell
+        Insert your log output here..
+        ```
       value: |
         ```shell
         Insert your log output here..
