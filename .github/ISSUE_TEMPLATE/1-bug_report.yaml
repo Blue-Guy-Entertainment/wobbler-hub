@@ -3,7 +3,6 @@ description: Report a problem or any unexpected behaviors.
 title: "[Bug]: "
 labels:
   - bug
-assignees: null
 body:
   - type: markdown
     attributes:
@@ -13,9 +12,8 @@ body:
     id: what-happened
     attributes:
       label: What happened?
-      description: >
+      description: |
         Please explain what happened, and also what you expected to happen.
-
         If you can have any idea what it was caused by and how to reproduce it, that would be helpful as well - please include detailed steps if applicable.
 
         Drag any relevant screenshots into this textbox.
@@ -38,7 +36,6 @@ body:
     attributes:
       label: Operating System & Version
       description: e.g. Windows 10 v10.0.19045 | MacOS Ventura 13.6.9 | Linux - Ubuntu 24.04.1
-      placeholder: null
     validations:
       required: true
   - type: input
@@ -57,22 +54,17 @@ body:
     id: logs
     attributes:
       label: Relevant log output
-      description: >
-        Please copy and paste any relevant log output. This probably isn't
-        necessary for most bug reports, unless it's a really severe/weird bug.
-
+      description: |
+        Please copy and paste any relevant log output. This probably isn't necessary for most bug reports, unless it's a really severe/weird bug.
         Feel free to also simply upload the log into this textbox if you're not sure.
 
         Here's where log files can be found:
-
         Windows: %localappdata%Low\Blue Guy Entertainment Inc\Wobbler\Player.log
-
         Linux: ~/.config/unity3d/BlueGuyEntertainmentInc/Wobbler/Player.log
-
         macOS: ~/Library/Logs/Blue Guy Entertainment Inc/Wobbler/Player.log
       value: |
         ```shell
         Insert your log output here..
         ```
-      validations:
-        required: false
+    validations:
+      required: false
