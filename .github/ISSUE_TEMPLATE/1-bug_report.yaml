@@ -3,6 +3,8 @@ description: Report a problem or any unexpected behaviors.
 title: "[Bug]: "
 labels:
   - bug
+assignees:
+  - BlueGuyEntertainment
 body:
   - type: markdown
     attributes:

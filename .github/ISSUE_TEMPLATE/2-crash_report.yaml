@@ -4,6 +4,8 @@ title: "[Crash]: "
 labels:
   - crash
   - bug
+assignees:
+  - BlueGuyEntertainment
 body:
   - type: markdown
     attributes:

@@ -1,8 +1,10 @@
 name: Feature request
-description: Suggest a new feature to be added to Wobbler or to the hub
+description: Suggest a new feature to be added to Wobbler or to the hub.
 title: "[Feature]: "
 labels:
   - feature
+assignees:
+  - BlueGuyEntertainment
 body:
   - type: markdown
     attributes:
