@@ -2,6 +2,7 @@ name: Crash report
 description: Report a game crash.
 title: "[Crash]: "
 labels: ["crash", "bug"]
+assignees:
 body:
   - type: markdown
     attributes:

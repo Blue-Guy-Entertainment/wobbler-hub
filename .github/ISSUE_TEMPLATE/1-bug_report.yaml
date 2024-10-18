@@ -2,6 +2,7 @@ name: Bug report
 description: Report a problem or any unexpected behaviors.
 title: "[Bug]: "
 labels: ["bug"]
+assignees:
 body:
   - type: markdown
     attributes:
